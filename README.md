@@ -13,7 +13,8 @@ My background includes production backend work in financial services, healthcare
 | [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, state isolation, safety fallback behavior |
 | [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison workflow |
 
-Engineering focus
+## Engineering focus
+
 Backend systems: REST APIs, service boundaries, relational data modeling, migrations, validation, and structured errors.
 Identity and security: OIDC/PKCE flows, JWT validation, role-aware access control, tenant isolation, and audit trails.
 Applied AI reliability: retrieval quality, guardrail evaluation, refusal behavior, benchmark design, and reproducible experiments.
