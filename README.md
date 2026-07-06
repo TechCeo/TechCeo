@@ -1,17 +1,18 @@
 ##  Yusuf Adamu
 
-# Backend / Applied AI Engineer building secure, testable systems with Python, FastAPI, Java, PostgreSQL, Docker, and LLM evaluation workflows.
+# Backend / Applied AI Engineer focused on secure APIs, service architecture, and reliable AI evaluation.
 
-I focus on the engineering layer between working prototypes and maintainable systems: API design, auth boundaries, database migrations, testable service architecture, and reproducible AI evaluation. My strongest work combines backend systems with applied AI reliability: secure service design, measurable behavior, and clear operational paths.
+I build systems at the point where prototypes need engineering discipline: authentication, database migrations, role-aware access, reproducible tests, Dockerized environments, and evaluation workflows for LLM safety and retrieval behavior.
+
+My strongest work combines backend engineering with applied AI reliability: secure service design, measurable behavior, and clear operational paths.
 
 ## Selected work
 
-| Project | What it demonstrates | Stack | Start here |
-| --- | --- | --- | --- |
-| [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine) | Full-stack inventory platform migrated from a legacy PyQt/SQLite desktop app into a multi-user web system with tenant boundaries, OIDC login, role-aware workflows, and audit events. | FastAPI, React, TypeScript, PostgreSQL, Alembic, Keycloak, Docker Compose | Migration story, OIDC flow, Dockerized local stack, API/domain structure |
-| [Merchants API](https://github.com/TechCeo/Merchants-API) | Java backend modernization exercise with REST resources, database migrations, validation, structured error handling, and decoupled tests. | Java 21, Spring Boot, Flyway, Maven, H2/SQL | API contract, Flyway migration path, error model, test structure |
-| [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, state isolation, safety fallback behavior |
-| [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison workflow |
+| [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine) | Legacy PyQt/SQLite desktop app rebuilt as a multi-user web platform with tenant boundaries, OIDC login, role-aware workflows, migrations, and audit events. | FastAPI, React, TypeScript, PostgreSQL, Alembic, Keycloak, Docker Compose | Migration story, auth flow, API/domain structure |
+| [Merchants API](https://github.com/TechCeo/Merchants-API) | Java backend modernization focused on REST resources, database migrations, validation, structured errors, and testable service boundaries. | Java 21, Spring Boot, Flyway, Maven, H2/SQL | API contract, migration path, error model |
+| [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, safety behavior |
+| [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison |
+
 
 ## Engineering focus
 
