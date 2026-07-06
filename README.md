@@ -6,12 +6,12 @@ My background includes production backend work in financial services, healthcare
 
 ## Featured systems
 
-| Project | Engineering signal | Stack | Start here |
+| Project | What it demonstrates | Stack | Start here |
 | --- | --- | --- | --- |
-| [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine) | Legacy PyQt/SQLite desktop app rebuilt as a multi-user web platform with tenant boundaries, OIDC login, role-aware workflows, migrations, and audit events. | FastAPI, React, TypeScript, PostgreSQL, Alembic, Keycloak, Docker Compose | Migration story, auth flow, API/domain structure |
-| [Merchants API](https://github.com/TechCeo/Merchants-API) | Java backend modernization focused on REST resources, database migrations, validation, structured errors, and testable service boundaries. | Java 21, Spring Boot, Flyway, Maven, H2/SQL | API contract, migration path, error model |
-| [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, safety behavior |
-| [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison |
+| [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine) | Full-stack inventory platform migrated from a legacy PyQt/SQLite desktop app into a multi-user web system with tenant boundaries, OIDC login, role-aware workflows, and audit events. | FastAPI, React, TypeScript, PostgreSQL, Alembic, Keycloak, Docker Compose | Migration story, OIDC flow, Dockerized local stack, API/domain structure |
+| [Merchants API](https://github.com/TechCeo/Merchants-API) | Java backend modernization exercise with REST resources, database migrations, validation, structured error handling, and decoupled tests. | Java 21, Spring Boot, Flyway, Maven, H2/SQL | API contract, Flyway migration path, error model, test structure |
+| [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, state isolation, safety fallback behavior |
+| [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison workflow |
 
 Engineering focus
 Backend systems: REST APIs, service boundaries, relational data modeling, migrations, validation, and structured errors.
