@@ -1,6 +1,6 @@
 ## Yusuf Adamu
 
-#Backend / Applied AI Engineer building secure APIs, service-oriented backends, and evaluation workflows for AI-enabled systems.
+# Backend / Applied AI Engineer building secure APIs, service-oriented backends, and evaluation workflows for AI-enabled systems.
 
 My background includes production backend work in financial services, healthcare, automation, and social-commerce environments.
 
