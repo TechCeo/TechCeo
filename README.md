@@ -1,26 +1,63 @@
-## Yusuf Adamu
+<div align="center">
 
-# Backend / Applied AI Engineer building secure APIs, service-oriented backends, and evaluation workflows for AI-enabled systems.
+# Hi, I'm Yusuf Adamu
 
-My background includes production backend work in financial services, healthcare, automation, and social-commerce environments.
+Software engineer building at the intersection of backend infrastructure, distributed systems, and applied machine learning.
 
-## Featured systems
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yusuf-adamu-9b3472115/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-yusufadamu.dev-24292F?style=flat-square&logo=safari&logoColor=white)](https://yusufadamu.dev)
+[![Email](https://img.shields.io/badge/Email-meetyusufadamu%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:meetyusufadamu@gmail.com)
 
-| Project | What it demonstrates | Stack | Start here |
-| --- | --- | --- | --- |
-| [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine) | Full-stack inventory platform migrated from a legacy PyQt/SQLite desktop app into a multi-user web system with tenant boundaries, OIDC login, role-aware workflows, and audit events. | FastAPI, React, TypeScript, PostgreSQL, Alembic, Keycloak, Docker Compose | Migration story, OIDC flow, Dockerized local stack, API/domain structure |
-| [Merchants API](https://github.com/TechCeo/Merchants-API) | Java backend modernization exercise with REST resources, database migrations, validation, structured error handling, and decoupled tests. | Java 21, Spring Boot, Flyway, Maven, H2/SQL | API contract, Flyway migration path, error model, test structure |
-| [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag) | Applied AI assistant exploring agent orchestration, retrieval, tool routing, conversation state, and safety fallback behavior in a medical-information setting. | Python, LangGraph, FAISS, Gradio, Docker | Agent graph, retrieval flow, state isolation, safety fallback behavior |
-| [LLMGuard Eval](https://github.com/TechCeo/llmguard-eval) | Evaluation workbench for measuring guardrail behavior across prompt injection, toxicity, topic detection, and PII filtering tasks. | Python, LLMGuard, Hugging Face models, Jupyter | Evaluation design, task coverage, model comparison workflow |
+</div>
 
-## Engineering focus
+## Career brief
 
-Backend systems: REST APIs, service boundaries, relational data modeling, migrations, validation, and structured errors.
-Identity and security: OIDC/PKCE flows, JWT validation, role-aware access control, tenant isolation, and audit trails.
-Applied AI reliability: retrieval quality, guardrail evaluation, refusal behavior, benchmark design, and reproducible experiments.
-Production readiness: Dockerized development, automated tests, CI gates, deployment documentation, and measurable performance claims.
+I build backend and AI-enabled systems that are secure, testable, and maintainable. My experience spans financial services, QA automation, technical education, and product engineering, backed by bachelor's and master's degrees in Computer Science.
 
-## Connect
+- **Backend systems** — Built Java and Spring Boot services supporting **1M+ daily financial transactions**, a **99.9% uptime target**, and payment and core-banking integrations. Backend optimization improved transaction processing by **30%**.
+- **Automation and reliability** — Turned recurring validation work into repeatable automation, reducing manual workflow effort by **50%** while improving regression coverage and release confidence.
+- **Applied AI and ML** — Engineer agentic RAG, retrieval, memory, safety controls, and evaluation workflows with Python. I focus on inspectable architectures, reproducible experiments, and measured failure modes—not demo-only model calls.
 
-- LinkedIn: [linkedin.com/in/yusuf-adamu-9b3472115](https://www.linkedin.com/in/yusuf-adamu-9b3472115)
-- GitHub: [github.com/TechCeo](https://github.com/TechCeo)
+## Featured repositories
+
+### [Inventory Lifecycle Engine](https://github.com/TechCeo/inventory-lifecycle-engine)
+
+A multi-user inventory platform evolved from a PyQt and SQLite desktop application into a containerized React and FastAPI system.
+
+**Architectural highlight:** Enforces tenant boundaries at the schema and service layers with organization-scoped constraints, OIDC/PKCE authentication, hierarchical roles, and audit events committed in the same PostgreSQL transaction as inventory mutations. Its legacy importer is idempotent, supports dry runs, and reports source-to-destination totals.
+
+`Python` · `FastAPI` · `React` · `TypeScript` · `PostgreSQL` · `Alembic` · `Keycloak` · `Docker Compose`
+
+---
+
+### [MediBot Agentic RAG](https://github.com/TechCeo/medibot-agentic-rag)
+
+An educational medical-information assistant that routes symptom, severity, description, and precaution queries through specialized tools.
+
+**Architectural highlight:** Combines a LangGraph ReAct orchestrator with per-session memory and a local TF-IDF/FAISS retrieval layer, keeping offline verification deterministic. A 60-case adversarial suite reports **97.67% Recall@k**, **100% out-of-scope detection**, and a **0% harmful-response rate**.
+
+`Python` · `LangGraph` · `LangChain` · `FAISS` · `scikit-learn` · `Gradio` · `pytest` · `Docker`
+
+---
+
+### [Merchants API](https://github.com/TechCeo/Merchants-API)
+
+A merchant and payment-transaction REST API modernized from Java 8 to Java 21 and Spring Boot 3.5.
+
+**Architectural highlight:** Treats Flyway migrations as the schema authority, validates the migrated schema through Hibernate, and runs tests against H2 in Oracle compatibility mode. The API uses resource-oriented routes, immutable records, RFC 7807 error responses, and decoupled slice tests.
+
+`Java 21` · `Spring Boot 3.5` · `Spring Data JPA` · `Hibernate` · `Oracle` · `Flyway` · `H2` · `Maven`
+
+## Tech stack
+
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Java, Python, TypeScript, JavaScript, SQL |
+| **Backend and architecture** | Spring Boot, FastAPI, Flask, REST APIs, Hibernate, SQLAlchemy, service-oriented architecture |
+| **AI and machine learning** | LangGraph, LangChain, FAISS, PyTorch, TensorFlow, scikit-learn, retrieval and evaluation pipelines |
+| **Data and identity** | PostgreSQL, Oracle, SQLite, Alembic, Flyway, Keycloak, OAuth 2.0, OIDC/PKCE, JWT |
+| **DevOps and infrastructure** | AWS, Docker, Docker Compose, GitHub Actions, CI/CD, integration testing |
+
+## Contact
+
+(mailto:meetyusufadamu@gmail.com) or [connect with me on LinkedIn](https://www.linkedin.com/in/yusuf-adamu-9b3472115/).
