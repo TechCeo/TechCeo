@@ -60,4 +60,8 @@ A merchant and payment-transaction REST API modernized from Java 8 to Java 21 an
 
 ## Contact
 
-(mailto:meetyusufadamu@gmail.com) or [connect with me on LinkedIn](https://www.linkedin.com/in/yusuf-adamu-9b3472115/).
+I'm always glad to connect with fellow developers, technology enthusiasts, and people learning their way through the field. Here's how you can reach me:
+
+**Email:** [meetyusufadamu@gmail.com](mailto:meetyusufadamu@gmail.com)
+
+**LinkedIn:** [linkedin.com/in/yusuf-adamu-9b3472115](https://www.linkedin.com/in/yusuf-adamu-9b3472115/)
