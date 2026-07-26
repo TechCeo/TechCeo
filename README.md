@@ -16,7 +16,7 @@ I build backend and AI-enabled systems that are secure, testable, and maintainab
 
 - **Backend systems** — Built Java and Spring Boot services supporting **1M+ daily financial transactions**, a **99.9% uptime target**, and payment and core-banking integrations. Backend optimization improved transaction processing by **30%**.
 - **Automation and reliability** — Turned recurring validation work into repeatable automation, reducing manual workflow effort by **50%** while improving regression coverage and release confidence.
-- **Applied AI and ML** — Engineer agentic RAG, retrieval, memory, safety controls, and evaluation workflows with Python. I focus on inspectable architectures, reproducible experiments, and measured failure modes—not demo-only model calls.
+- **Applied AI and ML** — Engineer agentic RAG, retrieval, memory, safety controls, and evaluation workflows with Python. My work also includes leakage-aware fraud modeling with causal features, chronological validation, hybrid XGBoost/FNN/LSTM inference, and drift monitoring. I focus on inspectable architectures, reproducible experiments, and measured failure modes—not demo-only model calls.
 
 ## Featured repositories
 
@@ -27,6 +27,16 @@ A multi-user inventory platform evolved from a PyQt and SQLite desktop applicati
 **Architectural highlight:** Enforces tenant boundaries at the schema and service layers with organization-scoped constraints, OIDC/PKCE authentication, hierarchical roles, and audit events committed in the same PostgreSQL transaction as inventory mutations. Its legacy importer is idempotent, supports dry runs, and reports source-to-destination totals.
 
 `Python` · `FastAPI` · `React` · `TypeScript` · `PostgreSQL` · `Alembic` · `Keycloak` · `Docker Compose`
+
+---
+
+### [FraudShield AI](https://github.com/TechCeo/FraudShield-AI)
+
+A leakage-aware transaction risk platform that turns chronological card activity into authenticated fraud scoring and reviewer workflows.
+
+**Architectural highlight:** Prevents temporal leakage with causal per-card features, immutable chronological partitions, and preprocessing fitted only on training rows. Its validation-selected log-odds fusion combines XGBoost, a feedforward neural network, and a causal LSTM, achieving **0.9767 average precision** on the out-of-time holdout before deployment through an authenticated FastAPI runtime with drift monitoring.
+
+`Python` · `FastAPI` · `XGBoost` · `PyTorch` · `scikit-learn` · `Streamlit` · `Docker` · `Vercel`
 
 ---
 
@@ -53,10 +63,10 @@ A merchant and payment-transaction REST API modernized from Java 8 to Java 21 an
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Java, Python, TypeScript, JavaScript, SQL |
-| **Backend and architecture** | Spring Boot, FastAPI, Flask, REST APIs, Hibernate, SQLAlchemy, service-oriented architecture |
-| **AI and machine learning** | LangGraph, LangChain, FAISS, PyTorch, TensorFlow, scikit-learn, retrieval and evaluation pipelines |
+| **Backend and architecture** | Spring Boot, FastAPI, Flask, Uvicorn, REST APIs, Hibernate, SQLAlchemy, service-oriented architecture |
+| **AI and machine learning** | LangGraph, LangChain, FAISS, PyTorch, TensorFlow, XGBoost, scikit-learn, imbalanced-learn, NumPy, pandas, SciPy, Streamlit, retrieval and evaluation pipelines |
 | **Data and identity** | PostgreSQL, Oracle, SQLite, Alembic, Flyway, Keycloak, OAuth 2.0, OIDC/PKCE, JWT |
-| **DevOps and infrastructure** | AWS, Docker, Docker Compose, GitHub Actions, CI/CD, integration testing |
+| **DevOps and infrastructure** | AWS, Docker, Docker Compose, GitHub Actions, Vercel, Render, CI/CD, integration testing |
 
 ## Contact
 
